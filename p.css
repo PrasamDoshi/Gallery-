@@ -59,7 +59,9 @@ img.zoomin{
     left: 0vw;
     top: 0vh; */
   }
-  
+.imageWrapper img :hover{
+    transform :scale(1);
+}
   .imageWrapper .close {
     position: absolute;
     top: 5%;
