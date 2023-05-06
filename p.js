@@ -6,7 +6,7 @@ let next = document.querySelector("span.next");
 let previous = document.querySelector("span.previous");
 let i = 0;
 let j = 0, k = 0;
-const huh = images.forEach((img, index) => {
+ images.forEach((img, index) => {
   // console.log(index);
   img.addEventListener("click", () => {
     console.log(index);
